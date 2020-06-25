@@ -25,5 +25,9 @@ def output_array (string, number)
 end
 
 def return_string_array (array)
-  array.each { |element| puts '"' + element.to_s + '"'}
+  counter = 0
+  while array[counter] do
+    puts array[counter]
+    counter += 1 
+  end
 end
