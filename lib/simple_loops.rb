@@ -25,7 +25,4 @@ def output_array (array)
 end
 
 def return_string_array (array)
-  array.each do |element|
-    Array.new << element.to_s
-  end
-end
+  array.each { |element| Array.new << element }
