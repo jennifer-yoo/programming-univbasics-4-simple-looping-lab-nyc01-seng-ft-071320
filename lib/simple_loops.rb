@@ -1,10 +1,10 @@
-def loop_message_five_times(message)
+def loop_message_five_times(string)
   counter = 0
-  loop do
+  loop do 
     counter += 1
-    puts message
-      if counter < 6
-        break
-      end
+    puts string
+    if counter > 6
+      break
+    end
   end
 end
