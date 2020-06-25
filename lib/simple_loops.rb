@@ -20,8 +20,8 @@ def loop_message_n_times(string, number)
   end
 end
 
-def output_array (string, number)
-  string.each { |element| puts element}
+def output_array (array)
+  array.each { |element| puts element}
 end
 
 def return_string_array (array)
