@@ -1,11 +1,8 @@
 def loop_message_five_times(string)
   counter = 0
-  loop do
-    counter += 1
+  while counter > 6
     puts string
-    if counter > 6
-      break
-    end
+    counter += 1
   end
 end
 
