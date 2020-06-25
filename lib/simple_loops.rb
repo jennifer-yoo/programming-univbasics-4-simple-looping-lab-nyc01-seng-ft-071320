@@ -16,6 +16,13 @@ def loop_message_n_times(string, number)
     puts string
     if counter == number
       break
-      end
     end
   end
+end
+
+def output_array (string, number)
+
+end
+
+def return_string_array (array)
+end
