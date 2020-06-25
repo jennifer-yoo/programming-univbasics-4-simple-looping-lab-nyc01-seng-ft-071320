@@ -25,8 +25,6 @@ def output_array (string, number)
 end
 
 def return_string_array (array)
-  array.each do |elements|
-    new_string = '"' + elements.to_s + '"'
-    puts new_string
+  array.each { |element| puts '"' + element '"'}
   end
 end
