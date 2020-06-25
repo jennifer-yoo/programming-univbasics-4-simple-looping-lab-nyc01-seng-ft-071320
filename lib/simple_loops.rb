@@ -21,7 +21,7 @@ def loop_message_n_times(string, number)
 end
 
 def output_array (string, number)
-
+  string.times(number)
 end
 
 def return_string_array (array)
