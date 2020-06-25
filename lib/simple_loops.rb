@@ -5,5 +5,6 @@ def loop_message_five_times(message)
     puts message
       if counter < 6
         break
+      end
   end
 end
