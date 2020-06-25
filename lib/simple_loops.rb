@@ -27,4 +27,5 @@ end
 def return_string_array (array)
   array.each do |elements|
     puts elements.to_s
+  end
 end
