@@ -23,5 +23,6 @@ end
 
 def return_string_array (array)
   new_array = []
-  array.each { |element| puts new_array << element.to_s }
+  array.each { |element| new_array << element.to_s }
+  new_array
 end
