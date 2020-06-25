@@ -26,7 +26,6 @@ end
 
 def return_string_array (array)
   array.each do |element|
-    Array.new
-    puts element
+    Array.new << element.to_s
   end
 end
