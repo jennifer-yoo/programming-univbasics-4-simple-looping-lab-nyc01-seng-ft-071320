@@ -26,6 +26,6 @@ end
 
 def return_string_array (array)
   array.each do |elements|
-    puts elements
+    puts '"' + elements '"'
   end
 end
