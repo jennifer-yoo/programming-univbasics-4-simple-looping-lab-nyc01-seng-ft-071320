@@ -10,5 +10,12 @@ def loop_message_five_times(string)
 end
 
 def loop_message_n_times(string, number)
-  string.times(number)
-end
+  counter = 0
+  loop do
+    counter += 1
+    puts string
+    if counter == number
+      break
+    end
+  end
+  
