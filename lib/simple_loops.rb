@@ -3,7 +3,7 @@ def loop_message_five_times(message)
   loop do
     counter += 1
     puts message
-      if counter = 5
+      if counter < 6
         break
   end
 end
